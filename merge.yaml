@@ -120,10 +120,34 @@ rule-providers:
     path: ./ruleset/Custom/IPCheck.yaml
     interval: 86400
 
-  Custom:
+  CustomProxy:
     type: http
     behavior: classical
     format: yaml
-    url: "https://raw.githubusercontent.com/jadchene/clash-config/main/rulesets/custom.yaml"
-    path: ./ruleset/Custom/Custom.yaml
+    url: "https://raw.githubusercontent.com/jadchene/clash-config/main/rulesets/custom-proxy.yaml"
+    path: ./ruleset/Custom/CustomProxy.yaml
+    interval: 86400
+    
+  CustomDirect:
+    type: http
+    behavior: classical
+    format: yaml
+    url: "https://raw.githubusercontent.com/jadchene/clash-config/main/rulesets/custom-direct.yaml"
+    path: ./ruleset/Custom/CustomDirect.yaml
+    interval: 86400
+    
+  GoogleCN:
+    type: http
+    behavior: classical
+    format: yaml
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleCN.yaml"
+    path: ./ruleset/ACL4SSR/GoogleCN.yaml
+    interval: 86400
+
+  SteamCN:
+    type: http
+    behavior: classical
+    format: yaml
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/SteamCN.yaml"
+    path: ./ruleset/ACL4SSR/SteamCN.yaml
     interval: 86400
