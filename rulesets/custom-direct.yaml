@@ -1,1 +1,13 @@
 payload:
+  - DOMAIN-SUFFIX,steamcontent.com,DIRECT
+  - DOMAIN,localhost.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,cdn.office.net,DIRECT
+  - DOMAIN-SUFFIX,login.live.com,DIRECT
+  - DOMAIN-SUFFIX,delivery.mp.microsoft.com,DIRECT
+  - DOMAIN-SUFFIX,vscode.download.prss.microsoft.com,DIRECT
+  - DOMAIN-SUFFIX,windowsupdate.com,DIRECT
+  - DOMAIN-SUFFIX,pmang.cloud,DIRECT
+  - DOMAIN-KEYWORD,bd2-cdn,DIRECT
+  - DOMAIN-KEYWORD,bd2.pmang,DIRECT
+  - DOMAIN-SUFFIX,dl.google.com,DIRECT
+  - DOMAIN-SUFFIX,edgedl.me.gvt1.com,DIRECT
