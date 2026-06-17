@@ -14,8 +14,6 @@ prepend:
   - 'RULE-SET,Google,Proxy'
   - 'RULE-SET,Steam,Proxy'
   - 'RULE-SET,IPCheck,Proxy'
-  - 'GEOSITE,cn,DIRECT'
-  - 'GEOIP,CN,DIRECT,no-resolve'
   - 'MATCH,DIRECT'
 append: []
 delete: []
