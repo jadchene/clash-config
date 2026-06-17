@@ -54,9 +54,9 @@ rule-providers:
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Steam.yaml"
     path: ./ruleset/Steam.yaml
     interval: 86400
-  SteamCN:
+  IPCheck:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/SteamCN.yaml"
-    path: ./ruleset/SteamCN.yaml
+    url: "https://raw.githubusercontent.com/jadchene/clash-config/main/rulesets/ipcheck.yaml"
+    path: ./ruleset/IPCheck.yaml
     interval: 86400
