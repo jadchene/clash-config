@@ -5,3 +5,6 @@ payload:
   
   # OpenAI / ChatGPT Statsig
   - DOMAIN-SUFFIX,oaistatsig.com
+
+  #Docker
+  - DOMAIN-SUFFIX,dockerstatic.com
