@@ -1,4 +1,5 @@
 payload:
+  - GEOIP,Private,DIRECT,no-resolve
   - DOMAIN-SUFFIX,steamcontent.com,DIRECT
   - DOMAIN,localhost.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,cdn.office.net,DIRECT
