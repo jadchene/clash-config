@@ -1,15 +1,13 @@
 payload:
-  - AND,((NETWORK,udp),(DST-PORT,443)),REJECT
-  - GEOIP,Private,DIRECT,no-resolve
-  - DOMAIN-SUFFIX,steamcontent.com,DIRECT
-  - DOMAIN,localhost.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,cdn.office.net,DIRECT
-  - DOMAIN-SUFFIX,login.live.com,DIRECT
-  - DOMAIN-SUFFIX,delivery.mp.microsoft.com,DIRECT
-  - DOMAIN-SUFFIX,vscode.download.prss.microsoft.com,DIRECT
-  - DOMAIN-SUFFIX,windowsupdate.com,DIRECT
-  - DOMAIN-SUFFIX,pmang.cloud,DIRECT
-  - DOMAIN-KEYWORD,bd2-cdn,DIRECT
-  - DOMAIN-KEYWORD,bd2.pmang,DIRECT
-  - DOMAIN-SUFFIX,dl.google.com,DIRECT
-  - DOMAIN-SUFFIX,edgedl.me.gvt1.com,DIRECT
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN,localhost.weixin.qq.com
+  - DOMAIN-SUFFIX,cdn.office.net
+  - DOMAIN-SUFFIX,login.live.com
+  - DOMAIN-SUFFIX,delivery.mp.microsoft.com
+  - DOMAIN-SUFFIX,vscode.download.prss.microsoft.com
+  - DOMAIN-SUFFIX,windowsupdate.com
+  - DOMAIN-SUFFIX,pmang.cloud
+  - DOMAIN-KEYWORD,bd2-cdn
+  - DOMAIN-KEYWORD,bd2.pmang
+  - DOMAIN-SUFFIX,dl.google.com
+  - DOMAIN-SUFFIX,edgedl.me.gvt1.com
