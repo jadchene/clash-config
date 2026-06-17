@@ -9,7 +9,6 @@ prepend:
   - 'RULE-SET,OpenAI,Proxy'
   - 'RULE-SET,Gemini,Proxy'
   - 'RULE-SET,Telegram,Proxy'
-  - 'RULE-SET,YouTube,Proxy'
   - 'RULE-SET,Twitter,Proxy'
   - 'RULE-SET,GitHub,Proxy'
   - 'RULE-SET,Google,Proxy'
