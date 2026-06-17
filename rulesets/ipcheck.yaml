@@ -31,3 +31,4 @@ payload:
   - DOMAIN-SUFFIX,ipcheck.ing
   - DOMAIN-SUFFIX,myip.ipip.net
   - DOMAIN-SUFFIX,test-ipv6.com
+  - DOMAIN-SUFFIX,ipapi.co
