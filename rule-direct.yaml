@@ -1,9 +1,6 @@
 prepend:
   - 'AND,((NETWORK,udp),(DST-PORT,443)),REJECT'
   - 'GEOIP,Private,DIRECT,no-resolve'
-  - 'DOMAIN-SUFFIX,plugins.jetbrains.com,Proxy'
-  - 'DOMAIN-SUFFIX,downloads.marketplace.jetbrains.com,Proxy'
-  - 'DOMAIN-SUFFIX,oaistatsig.com,Proxy'
   - 'RULE-SET,OpenAI,Proxy'
   - 'RULE-SET,Claude,Proxy'
   - 'RULE-SET,Gemini,Proxy'
@@ -14,6 +11,8 @@ prepend:
   - 'RULE-SET,Google,Proxy'
   - 'RULE-SET,Steam,Proxy'
   - 'RULE-SET,IPCheck,Proxy'
+  - 'RULE-SET,Docker,Proxy'
+  - 'RULE-SET,Custom,Proxy'
   - 'MATCH,DIRECT'
 append: []
 delete: []
