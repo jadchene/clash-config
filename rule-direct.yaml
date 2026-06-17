@@ -1,6 +1,11 @@
 prepend:
   - 'AND,((NETWORK,udp),(DST-PORT,443)),REJECT'
   - 'GEOIP,Private,DIRECT,no-resolve'
+  - 'RULE-SET,CustomDirect,DIRECT'
+  - 'RULE-SET,CustomProxy,Proxy'
+  - 'RULE-SET,GoogleCN,DIRECT'
+  - 'RULE-SET,SteamCN,DIRECT'
+  - 'RULE-SET,SteamRegionCheck,DIRECT'
   - 'RULE-SET,OpenAI,Proxy'
   - 'RULE-SET,Claude,Proxy'
   - 'RULE-SET,Gemini,Proxy'
@@ -13,10 +18,8 @@ prepend:
   - 'RULE-SET,Docker,Proxy'
   - 'RULE-SET,JetBrains,Proxy'
   - 'RULE-SET,F1,Proxy'
-  - 'RULE-SET,SteamRegionCheck,DIRECT'
   - 'RULE-SET,Steam,Proxy'
   - 'RULE-SET,IPCheck,Proxy'
-  - 'RULE-SET,Custom,Proxy'
   - 'MATCH,DIRECT'
 append: []
 delete: []
