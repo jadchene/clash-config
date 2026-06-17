@@ -3,33 +3,33 @@ rule-providers:
   OpenAI:
     type: http
     behavior: classical
-    format: text
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
-    path: ./ruleset/ACL4SSR/OpenAi.list
+    format: yaml
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OpenAi.yaml"
+    path: ./ruleset/ACL4SSR/OpenAi.yaml
     interval: 86400
 
   Claude:
     type: http
     behavior: classical
-    format: text
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Claude.list"
-    path: ./ruleset/ACL4SSR/Claude.list
+    format: yaml
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Claude.yaml"
+    path: ./ruleset/ACL4SSR/Claude.yaml
     interval: 86400
 
   Gemini:
     type: http
     behavior: classical
-    format: text
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Gemini.list"
-    path: ./ruleset/ACL4SSR/Gemini.list
+    format: yaml
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Gemini.yaml"
+    path: ./ruleset/ACL4SSR/Gemini.yaml
     interval: 86400
 
   AI:
     type: http
     behavior: classical
-    format: text
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AI.list"
-    path: ./ruleset/ACL4SSR/AI.list
+    format: yaml
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AI.yaml"
+    path: ./ruleset/ACL4SSR/AI.yaml
     interval: 86400
 
   Telegram:
@@ -75,17 +75,17 @@ rule-providers:
   Docker:
     type: http
     behavior: classical
-    format: text
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Docker.list"
-    path: ./ruleset/ACL4SSR/Docker.list
+    format: yaml
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Docker.yaml"
+    path: ./ruleset/ACL4SSR/Docker.yaml
     interval: 86400
 
   JetBrains:
     type: http
     behavior: classical
-    format: text
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/JetBrains.list"
-    path: ./ruleset/ACL4SSR/JetBrains.list
+    format: yaml
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/JetBrains.yaml"
+    path: ./ruleset/ACL4SSR/JetBrains.yaml
     interval: 86400
 
   F1:
@@ -99,17 +99,17 @@ rule-providers:
   SteamRegionCheck:
     type: http
     behavior: classical
-    format: text
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamRegionCheck.list"
-    path: ./ruleset/ACL4SSR/SteamRegionCheck.list
+    format: yaml
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/SteamRegionCheck.yaml"
+    path: ./ruleset/ACL4SSR/SteamRegionCheck.yaml
     interval: 86400
 
   Steam:
     type: http
     behavior: classical
-    format: text
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list"
-    path: ./ruleset/ACL4SSR/Steam.list
+    format: yaml
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Steam.yaml"
+    path: ./ruleset/ACL4SSR/Steam.yaml
     interval: 86400
 
   IPCheck:
