@@ -1,0 +1,7 @@
+payload:
+  # JetBrains
+  - DOMAIN-SUFFIX,plugins.jetbrains.com
+  - DOMAIN-SUFFIX,downloads.marketplace.jetbrains.com
+  
+  # OpenAI / ChatGPT Statsig
+  - DOMAIN-SUFFIX,oaistatsig.com
