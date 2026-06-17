@@ -13,7 +13,7 @@ prepend:
   - 'RULE-SET,GitHub,Proxy'
   - 'RULE-SET,Google,Proxy'
   - 'RULE-SET,Steam,Proxy'
-  - 'RULE-SET,SteamCN,DIRECT'
+  - 'RULE-SET,IPCheck,Proxy'
   - 'GEOSITE,cn,DIRECT'
   - 'GEOIP,CN,DIRECT,no-resolve'
   - 'MATCH,DIRECT'
