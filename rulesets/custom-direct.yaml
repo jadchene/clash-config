@@ -1,4 +1,7 @@
 payload:
+  - DOMAIN,steamcdn-a.akamaihd.net
+  - DOMAIN-SUFFIX,cm.steampowered.com
+  - DOMAIN-SUFFIX,steamserver.net
   - DOMAIN-SUFFIX,steamcontent.com
   - DOMAIN,localhost.weixin.qq.com
   - DOMAIN-SUFFIX,cdn.office.net
