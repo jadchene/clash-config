@@ -23,8 +23,6 @@ prepend:
   - 'RULE-SET,Twitter,Proxy'
   - 'RULE-SET,GitHub,Proxy'
   - 'RULE-SET,Docker,Proxy'
-  - 'RULE-SET,SteamRegionCheck,DIRECT'
-  - 'RULE-SET,SteamCN,DIRECT'
   - 'RULE-SET,Steam,Proxy'
   - 'RULE-SET,IPCheck,Proxy'
   - 'MATCH,DIRECT'
