@@ -2,18 +2,9 @@
   "version": 3,
   "rules": [
     {
-      "domain_keyword": [
+      "protocol": [
+        "quic",
         "stun"
-      ]
-    },
-    {
-      "network": [
-        "udp"
-      ],
-      "port": [
-        443,
-        3478,
-        5349
       ]
     }
   ]
