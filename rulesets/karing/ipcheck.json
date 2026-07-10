@@ -1,0 +1,42 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "ippure.com",
+        "ip2location.com",
+        "ipinfo.io",
+        "ipip.la",
+        "ping0.cc",
+        "ipwho.is",
+        "ip-api.com",
+        "ip.sb",
+        "ipify.org",
+        "ifconfig.me",
+        "icanhazip.com",
+        "ident.me",
+        "myip.com",
+        "whatismyipaddress.com",
+        "whatismyip.com",
+        "ipchaxun.com",
+        "ip138.com",
+        "ipip.net",
+        "ipaddress.my",
+        "browserleaks.com",
+        "browserleaks.io",
+        "dnsleaktest.com",
+        "ipleak.net",
+        "whoer.net",
+        "whoer.com",
+        "pixelscan.net",
+        "amiunique.org",
+        "coveryourtracks.eff.org",
+        "deviceinfo.me",
+        "ipcheck.ing",
+        "myip.ipip.net",
+        "test-ipv6.com",
+        "ipapi.co"
+      ]
+    }
+  ]
+}
