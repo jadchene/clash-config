@@ -21,6 +21,7 @@ payload:
   - DOMAIN-SUFFIX,browserleaks.com
   - DOMAIN-SUFFIX,browserleaks.io
   - DOMAIN-SUFFIX,dnsleaktest.com
+  - DOMAIN-SUFFIX,browserleaks.org
   - DOMAIN-SUFFIX,ipleak.net
   - DOMAIN-SUFFIX,whoer.net
   - DOMAIN-SUFFIX,whoer.com
