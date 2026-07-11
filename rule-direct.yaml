@@ -1,5 +1,4 @@
 prepend:
-  - 'GEOSITE,category-ads-all,REJECT'
   - 'AND,((NETWORK,udp),(DST-PORT,443)),REJECT'
   - 'DOMAIN-REGEX,(^|\.)stun[0-9]*\..+,REJECT'
   - 'AND,((NETWORK,UDP),(DST-PORT,3478-3481)),REJECT'
