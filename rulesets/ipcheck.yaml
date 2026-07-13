@@ -36,3 +36,4 @@ payload:
   - DOMAIN-SUFFIX,myip.ipip.net
   - DOMAIN-SUFFIX,test-ipv6.com
   - DOMAIN-SUFFIX,ipapi.co
+  - DOMAIN-SUFFIX,ipapi.is
