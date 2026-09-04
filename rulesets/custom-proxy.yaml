@@ -11,4 +11,5 @@ payload:
   - DOMAIN-SUFFIX,hf.co
   - DOMAIN-SUFFIX,reddit.com
   - DOMAIN-SUFFIX,redd.it
+  - DOMAIN-SUFFIX,redditstatic.com
   - DOMAIN-SUFFIX,linux.do
