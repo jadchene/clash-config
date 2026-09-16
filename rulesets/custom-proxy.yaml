@@ -17,3 +17,6 @@ payload:
   - DOMAIN-SUFFIX,linux.do
   - DOMAIN-SUFFIX,wikipedia.org
   - DOMAIN-SUFFIX,wikimedia.org
+  - DOMAIN-SUFFIX,ubuntu.com
+  - DOMAIN-SUFFIX,pypi.org
+  - DOMAIN-SUFFIX,files.pythonhosted.org
