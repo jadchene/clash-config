@@ -14,6 +14,3 @@ payload:
   - DOMAIN-KEYWORD,bd2.pmang
   - DOMAIN-SUFFIX,dl.google.com
   - DOMAIN-SUFFIX,edgedl.me.gvt1.com
-  - DOMAIN-SUFFIX,ubuntu.com
-  - DOMAIN-SUFFIX,pypi.org
-  - DOMAIN-SUFFIX,files.pythonhosted.org
