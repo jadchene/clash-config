@@ -16,6 +16,7 @@ prepend:
   - 'RULE-SET,CustomDirect,DIRECT'
   - 'RULE-SET,CustomProxy,Proxy'
   - 'RULE-SET,OpenAI,Proxy'
+  - 'RULE-SET,Claude,Proxy'
   - 'RULE-SET,Gemini,Proxy'
   - 'RULE-SET,GoogleCN,DIRECT'
   - 'RULE-SET,Google,Proxy'
