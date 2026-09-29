@@ -20,3 +20,4 @@ payload:
   - DOMAIN-SUFFIX,ubuntu.com
   - DOMAIN-SUFFIX,pypi.org
   - DOMAIN-SUFFIX,files.pythonhosted.org
+  - IP-CIDR,160.79.104.0/21,no-resolve
