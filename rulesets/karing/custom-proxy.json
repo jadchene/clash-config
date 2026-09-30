@@ -20,6 +20,14 @@
         "linux.do",
         "wikipedia.org",
         "wikimedia.org"
+      ],
+      "ip_cidr": [
+        "172.203.39.49/32",
+        "172.214.226.198/32",
+        "4.151.200.38/32"
+      ],
+      "domain": [
+        "aks-prod-japaneast.access-point.cloudmessaging.edge.microsoft.com"
       ]
     }
   ]
