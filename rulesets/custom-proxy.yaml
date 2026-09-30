@@ -20,4 +20,10 @@ payload:
   - DOMAIN-SUFFIX,ubuntu.com
   - DOMAIN-SUFFIX,pypi.org
   - DOMAIN-SUFFIX,files.pythonhosted.org
+  # Anthropic
   - IP-CIDR,160.79.104.0/21,no-resolve
+  # OpenAI Dot
+  - IP-CIDR,172.203.39.49/32,no-resolve
+  - IP-CIDR,172.214.226.198/32,no-resolve
+  - IP-CIDR,4.151.200.38/32,no-resolve
+  - DOMAIN,aks-prod-japaneast.access-point.cloudmessaging.edge.microsoft.com
